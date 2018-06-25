@@ -12,14 +12,15 @@ import { UserComponent } from './users/user/user.component';
 import { EditServerComponent } from './servers/edit-server/edit-server.component';
 import { ServerComponent } from './servers/server/server.component';
 import { ServersService } from './servers/servers.service';
+
 const appRoutes: Routes = [ // creating route configuration // appication will not use thos without below import
   {
     path: '', // base route // equivalent to localhost:4200
     component: HomeComponent
-  },{
+  }, {
     path: 'servers',
     component: ServersComponent
-  },{
+  }, {
     path: 'users',
     component: UsersComponent
   }
